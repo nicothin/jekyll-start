@@ -1,0 +1,46 @@
+#
+# Конфигурация сайта
+#
+
+# Название
+name: Проект
+
+# Короткое описание
+description: Описание проекта
+
+#
+# Настройки
+#
+
+# Если проект расположен на github (http://yourname.github.io/rep-name)
+# и не является пользовательским (адрес не http://youname.github.io)
+# нужно задать эту настройку так: "/repository-name"
+baseurl: ""
+
+#
+# !! Не трогайте, если не знаете что это !!
+#
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Версия Jekyll
+version: v3.0
+
+# Настройки Sass
+sass:
+  # sass_dir: _scss
+  style: :compressed
+
+# Используемые плагины
+#gems:
+#  - jekyll-sitemap
+
+# Список исключений, не попадающих в _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
